@@ -235,7 +235,7 @@
             // search1
             // 
             this.search1.BackColor = System.Drawing.Color.LightSkyBlue;
-            this.search1.Location = new System.Drawing.Point(182, 40);
+            this.search1.Location = new System.Drawing.Point(182, 42);
             this.search1.Name = "search1";
             this.search1.Size = new System.Drawing.Size(424, 506);
             this.search1.TabIndex = 15;
@@ -243,7 +243,7 @@
             // storedData1
             // 
             this.storedData1.BackColor = System.Drawing.Color.LightSkyBlue;
-            this.storedData1.Location = new System.Drawing.Point(186, 48);
+            this.storedData1.Location = new System.Drawing.Point(186, 40);
             this.storedData1.Name = "storedData1";
             this.storedData1.Size = new System.Drawing.Size(418, 500);
             this.storedData1.TabIndex = 14;
@@ -251,7 +251,7 @@
             // settings_Window1
             // 
             this.settings_Window1.BackColor = System.Drawing.Color.LightSkyBlue;
-            this.settings_Window1.Location = new System.Drawing.Point(186, 40);
+            this.settings_Window1.Location = new System.Drawing.Point(186, 45);
             this.settings_Window1.Name = "settings_Window1";
             this.settings_Window1.Size = new System.Drawing.Size(418, 500);
             this.settings_Window1.TabIndex = 16;
@@ -262,13 +262,13 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.LightSkyBlue;
             this.ClientSize = new System.Drawing.Size(609, 583);
-            this.Controls.Add(this.settings_Window1);
-            this.Controls.Add(this.search1);
-            this.Controls.Add(this.storedData1);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.panel4);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
+            this.Controls.Add(this.settings_Window1);
+            this.Controls.Add(this.search1);
+            this.Controls.Add(this.storedData1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "ModernSettingsForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
