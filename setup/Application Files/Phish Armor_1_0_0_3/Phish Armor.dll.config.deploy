@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<configuration>
+    <configSections>
+    </configSections>
+    <connectionStrings>
+        <add name="PhishArmor.Properties.Settings.EmailDatasetConnectionString"
+            connectionString="Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\EmailDataset.mdf;Integrated Security=True"
+            providerName="System.Data.SqlClient" />
+    </connectionStrings>
+</configuration>
