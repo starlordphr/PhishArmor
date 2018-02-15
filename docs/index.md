@@ -37,4 +37,4 @@ Protection tab can be used to selectively turn on/off the two different protecti
 
 ## Modifying Phish Armor
 
-Phish Armor is distributed under MIT License and hence feel free to fork it and modify the code for adding aditional functionalities. 
+Phish Armor is distributed under MIT License and hence feel free to fork it and modify the code for adding aditional functionalities. Moreover, the source code is well commented and it should be easy to follow. If needed, you can contact me by following this [link](https://starlordphr.github.io/).
