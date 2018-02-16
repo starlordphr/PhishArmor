@@ -24,15 +24,23 @@ Go to *Uninstall or change a program* settings in the Control Panel and search f
 ## Using Phish Armor
 
 Once the plugin is installed you will see:
+
+
 ![Phish Armor Ribbon](images/MainWindow.PNG)
 
 Stored Data tab can be used to view all the email addresses stored in the knowledge base. The user has the access to trust all the email ids or to untrust all of them. Moreover, the user can also delete a particular entry from the knowledge base. Hence, this tab can be used to provide fine grain control over the stored meta data.
+
+
 ![Stored Data](images/storeddata.PNG)
 
 Search tab can be used to navigate more easily through the meta data stored in knowledge base. The search query does support regular expressions that can be used in MySQL.
+
+
 ![Search](images/search.PNG)
 
 Protection tab can be used to selectively turn on/off the two different protection mechanisms provided by Phish Armor. The user has the option to disable **Email Address Protection**, which will result in Phish Armor completely ignoring the related check and the same applies to **Reply-To Protection**.
+
+
 ![Search](images/protection.PNG)
 
 ## Modifying Phish Armor
