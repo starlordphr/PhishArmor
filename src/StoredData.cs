@@ -72,13 +72,22 @@ namespace PhishArmor
             cmd = new SqlCommand(Query, DatabaseConnection.myConn);
             reader = cmd.ExecuteReader();
 
-            while (reader.Read())
+            if (reader.HasRows)
             {
-                emailId = String.Copy(reader.GetString(1));
-                trust = String.Copy(reader.GetString(2));
+                while (reader.Read())
+                {
+                    emailId = String.Copy(reader.GetString(1));
+                    trust = String.Copy(reader.GetString(2));
 
-                flowLayoutPanel1.Controls.Add(new DatabaseControl(emailId, trust));
+                    flowLayoutPanel1.Controls.Add(new DatabaseControl(emailId, trust));
+                }
             }
+            else
+            {
+                flowLayoutPanel1.Controls.Add(new TextControl());
+            }
+
+            
             reader.Close();
             DatabaseConnection.CloseDB();
         }
