@@ -14,7 +14,7 @@ Currently, Phish Armor is only supported for Windows and has been tested on Wind
 
 ### Installing
 
-Please download the setup files from this [link](../setup) and install.
+Please download the setup files from this [link](https://github.com/starlordphr/PhishArmor) and install.
 
 ### Uninstalling
 
